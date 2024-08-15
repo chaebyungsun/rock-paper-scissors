@@ -68,6 +68,7 @@ function App() {
   return (
     <div>
       <div className="container">
+        <h1>가위바위보 게임</h1>
         <div className="main">
           <Box title="You" item={userSelect} result={result} />
           <Box title="Computer" item={computerSelect} result={result} />
