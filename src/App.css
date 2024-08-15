@@ -25,7 +25,8 @@ body {
   padding: 20px;
   border: 4px solid;
   border-radius: 20px;
-  width: 500px;
+  width: 400px;
+  height: 400px;
   text-align: center;
 }
 button {
@@ -38,9 +39,10 @@ button {
   cursor: pointer;
 }
 .img {
-  padding: 100px;
+  height: auto;
   width: 200px;
-  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .win {
   color: green;
